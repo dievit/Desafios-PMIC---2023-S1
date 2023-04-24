@@ -1,5 +1,3 @@
-# Projeto Acadêmico FATEC 2023
- Este é o primeiro projeto feito por mim na FATEC SJC.
 <h1> Meu primeiro projeto em HTML e CSS</h1>
 <p>Meu primeiro projeto em HTML e CSS feito a partir do conhecimento adquirido em aula e estudos extra classe, tendo em vista que foi meu primeiro contato com linguagens de marcação e ediçao de estilo, tenho muito orgulho do que produzi nesta etapa do projeto.</p>
 
