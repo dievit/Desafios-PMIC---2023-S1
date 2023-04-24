@@ -1,0 +1,54 @@
+{%extends "base.html"%}
+{%block title%}Artefatos{%endblock%}
+{%block content%}
+
+
+<div>
+    <h1 class="t1">Artefatos Scrum</h1>
+</div>
+    <div class="flex-container2">
+        <div>
+            <p class="texto1">
+                Artefatos Scrum são os produtos e documentos que são criados durante a execução do framework Scrum. São utilizados para
+                garantir que todos os envolvidos no projeto tenham uma compreensão clara do progresso e dos objetivos do projeto.
+                Existem três artefatos principais do Scrum:
+            </p>
+                <div class="texto1">
+                    <ol>
+                        <li>
+                            <p><a class="linkart" href="/probacklog">Product Backlog:</a>: é uma lista priorizada de todas as funcionalidades, requisitos, melhorias e correções que devem ser
+                            mplementadas durante o projeto. O Product Owner é responsável por manter e atualizar esse backlog.
+                            </p>
+                        </li>
+                        <li>
+                            <p><a class="linkart" href="/sprintbacklog">Sprint Backlog:</a> é uma lista de todas as tarefas que devem ser concluídas durante uma sprint, incluindo todas as
+                            funcionalidades e requisitos selecionados para aquela sprint. A equipe de desenvolvimento é responsável por criar e
+                            atualizar esse backlog.
+                            </p>
+                        </li>
+                        <li>
+                            <p><a class="linkart" href="/burndown">Burndown:</a>Ele é utilizado para acompanhar o progresso da equipe durante o sprint e garantir
+                                que as atividades estejam sendo concluídas dentro do prazo estabelecido. O burndown pode ser representado
+                                graficamente, mostrando a quantidade de trabalho restante ao longo do tempo. A ideia é que a linha do gráfico vá
+                                diminuindo até que todo o trabalho planejado para o sprint seja concluído. Dessa forma, o burndown é uma ferramenta
+                                importante para ajudar a equipe a identificar e solucionar possíveis problemas e manter o foco no objetivo do
+                                sprint.
+                            </p>
+                        </li>
+                    </ol>
+                        <p class="pnartefatos">Esses artefatos são criados em conjunto pela equipe de desenvolvimento e o Product Owner, e são usados para garantir a
+                            transparência do projeto e facilitar a comunicação entre todas as partes interessadas.
+                        </p>
+                </div>
+                <div>
+                    <button class="np">
+                        <a href="/time_scrum">Anterior</a>
+                    </button>
+                    <button class="np">
+                        <a href="/probacklog">Próximo</a>
+                    </button>
+                </div>
+        </div>
+            
+    </div>
+{%endblock%}
