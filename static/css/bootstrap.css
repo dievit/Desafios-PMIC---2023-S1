@@ -1,0 +1,69 @@
+.navbar-nav .nav-link {
+    color: #000000;
+}
+
+.avalsub{
+    background-color: rgba(172, 160, 129, 1) !important;
+}
+
+.dropdown-menu li {
+    position: relative;
+    }
+    
+    .dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+    }
+    .dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+    }
+    .dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+    }
+
+.dropdown-item:hover, .dropdown-item{
+    margin-left: 0px;
+    padding: auto;
+}
+
+.text-center{
+    align-items: center;
+}
+
+.card{
+    margin-top: 10%;
+    display: flex;
+}
+
+.navbar{
+    background-color: rgba(172, 160, 129, 1) !important; /* Substitua #000 pela cor desejada */
+}
+
+.navbar-brand, .navbar-text, .dropdown-item{
+  color: #000000; /* Substitua #fff pela cor desejada */
+}
+
+.dropdown-menu-dark{
+    background-color: rgba(172, 160, 129, 1);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 10%;
+}
+  
+  .card{
+    flex: 1;
+    margin: 0 30px 30px;
+    margin-left: 35%;
+}
+  
+
+.dropdwon > .btn-secondary:hover{
+    background-color: transparent;
+}

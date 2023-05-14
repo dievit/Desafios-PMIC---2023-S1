@@ -1,5 +1,5 @@
 {%extends "base.html"%}
-{%block title%}index{%endblock%}
+{%block title2%}{%block title%}SCRUM{%endblock%}{%endblock%}
 {%block content%}
 <div class='container'>
     <h1 class="t1">Por quê ensinar o Método Scrum<br>
@@ -15,8 +15,8 @@
     <div>
         <img class="imgindex" src="../static/imagens/prof-removebg.png" alt="professor sem fundo">
     </div>
-        <button class="npinit">
-            <a href="/scrum">Iniciar</a>
-        </button>
+    <div class="text-center">
+        <a href="/scrum" class="btn btn-secondary btn-lg">Iniciar</a>
+    </div>
 </div>
 {%endblock%}

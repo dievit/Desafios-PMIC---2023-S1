@@ -1,0 +1,89 @@
+{%extends "base.html"%}
+{%block title2%}{%block title%}Eventos Scrum{%endblock%}{%endblock%}
+{%block content%}
+<div class="flex-container">
+    <h1 class="t1">Eventos Scrum</h1>
+    <p class="texto1">
+        <a href="/eventosvideo" button type="button" class="btn btn-danger"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+        Veja o vídeo
+        </a>
+        Scrum possui alguns eventos de duração fixa realizados em intervalos regulares. Cada um destes eventos são
+        oportunidades para inspeção e adaptação.
+    </p>
+
+        <h2>Sprint</h2>
+
+        <p class="texto1">Todo o desenvolvimento em Scrum é feito de forma iterativa e incremental – ciclos completos de desenvolvimento
+        de duração fixa onde ao final temos incrementos potencialmente entregáveis do produto. Estas iterações são
+        chamadas de Sprints.
+
+        Cada Sprint tem duração de até um mês, o que permite feedbacks constantes do Product Owner quanto ao produto
+        sendo desenvolvido. Da mesma forma, o Product Owner tem a possibilidade de analisar o que foi produzido e
+        reorganizar o Product Backlog caso seja necessário.</p>
+
+        <h2>Sprint Planning Meeting</h2>
+
+        <p class="texto1">Ao início de cada uma das Sprints, o Time Scrum se reúne para planejar o que será feito naquela Sprint. Esta
+        reunião chama-se Sprint Planning Meeting (Reunião de Planejamento da Sprint) e tem duração fixa (timeboxed) de
+        até oito horas para uma Sprint de um mês. Para Sprints menores, o tempo é reduzido de forma proporcional.
+
+        A Sprint Planning Meeting é dividida em duas partes, cada uma com duração fixa correspondente à metade da
+        duração total. Cada parte responde às seguintes perguntas:  O que será entregue no Incremento resultante nesta
+        Sprint?  Como faremos para entregar o Incremento nesta Sprint?</p>
+
+        <h2>Sprint Planning Meeting – 1ª Parte</h2>
+
+        <p class="texto1">Na primeira parte da Sprint Planning Meeting, o Development Team faz uma previsão das funcionalidades que serão
+        desenvolvidas durante a Sprint. O Product Owner apresenta os itens do topo do Product Backlog ao Development
+        Team e o Time Scrum inteiro colabora na definição dos itens. A quantidade de itens selecionados para a Sprint,
+        entretanto, é prerrogativa do Development Team – somente o Development Team é capaz de avaliar o que consegue
+        realizar durante a Sprint.</p>
+
+        <h2>Sprint Planning Meeting – 2ª Parte</h2>
+
+        <p class="texto1">Na segunda parte da Reunião de Planejamento, o Development Team decide como transformará os itens selecionados
+        em um Incremento durante a Sprint.</p>
+
+        <h2>Daily Scrum</h2>
+
+        <p class="texto1">Diariamente, o Development Team se reúne para uma reunião de no máximo 15 minutos, onde cada membro por vez
+        responde para os outros membros:</p>
+        <div class="listaeventos">
+            <ul>
+                <li><p class="texto1">O que fiz desde a última Daily Scrum?</p></li>
+                <li><p class="texto1">O que pretendo fazer até a próxima Daily Scrum?</p></li>
+                <li><p class="texto1">Existe algo me impedindo de concluir alguma tarefa?</p></li>
+            </ul>
+        </div>
+
+        <h2>Sprint Review</h2>
+
+        <p class="texto1">Ao final da Sprint, temos uma outra cerimônia chamada Sprint Review.<br>
+
+        Embora essa cerimônia também seja utilizada para demonstrar as novas funcionalidades feitas durante a Sprint,
+        seu principal motivo é o de inspecionar o que o Development Team produziu e colher opiniões e impressões dos
+        presentes para, caso seja necessário, adaptar o plano para a Sprint seguinte. Então, o foco desta cerimônia é
+        aprimorar o produto.</p>
+
+        <h2>Sprint Retrospective</h2>
+
+        <p class="texto1">O último evento de uma Sprint é a Sprint Retrospective e ocorre imediatamente após a Sprint Review. Participam
+        desta reunião todos os membros do Time Scrum, e o foco é o aprimoramento do processo – a interação entre os
+        membros do time, as práticas e ferramentas utilizadas, o que funcionou e o que precisa ser melhorado na próxima
+        Sprint. Claro, identificar problemas não é suficiente. Assim, é importante também identificar medidas a serem
+        tomadas para a melhoria do processo para as próximas Sprint.</p>
+
+        <h2>Release Planning Meeting</h2>
+
+        <p class="texto1">Um Release é a representação de uma entrega de produto em produção. Ele é comumente planejado através de um
+        cerimônia chamada Release Planning Meeting. Releases são planejados principalmente em ambientes onde estas
+        entregas precisam ter uma data fixa, seja por obrigações contratuais, necessidades de mercado, eventos
+        (conferências, product lauch, etc.) ou – principalmente em ambientes largos – para seguir um roadmap de releases
+        corporativos.</p>
+    <div class="text-center">
+        <a href="/artefatos_scrum" class="btn btn-secondary btn-lg">Anterior</a>
+        <a href="/quest-eventos" class="btn btn-secondary btn-lg">Avaliação</a>
+    </div>
+</div>
+{%endblock%}

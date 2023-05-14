@@ -1,54 +1,110 @@
 {%extends "base.html"%}
-{%block title%}Artefatos{%endblock%}
+{%block title2%}{%block title%}Artefatos Scrum{%endblock%}{%endblock%}
 {%block content%}
 
 
 <div>
     <h1 class="t1">Artefatos Scrum</h1>
 </div>
-    <div class="flex-container2">
-        <div>
-            <p class="texto1">
-                Artefatos Scrum são os produtos e documentos que são criados durante a execução do framework Scrum. São utilizados para
-                garantir que todos os envolvidos no projeto tenham uma compreensão clara do progresso e dos objetivos do projeto.
-                Existem três artefatos principais do Scrum:
-            </p>
-                <div class="texto1">
-                    <ol>
-                        <li>
-                            <p><a class="linkart" href="/probacklog">Product Backlog:</a>: é uma lista priorizada de todas as funcionalidades, requisitos, melhorias e correções que devem ser
-                            mplementadas durante o projeto. O Product Owner é responsável por manter e atualizar esse backlog.
-                            </p>
-                        </li>
-                        <li>
-                            <p><a class="linkart" href="/sprintbacklog">Sprint Backlog:</a> é uma lista de todas as tarefas que devem ser concluídas durante uma sprint, incluindo todas as
-                            funcionalidades e requisitos selecionados para aquela sprint. A equipe de desenvolvimento é responsável por criar e
-                            atualizar esse backlog.
-                            </p>
-                        </li>
-                        <li>
-                            <p><a class="linkart" href="/burndown">Burndown:</a>Ele é utilizado para acompanhar o progresso da equipe durante o sprint e garantir
-                                que as atividades estejam sendo concluídas dentro do prazo estabelecido. O burndown pode ser representado
-                                graficamente, mostrando a quantidade de trabalho restante ao longo do tempo. A ideia é que a linha do gráfico vá
-                                diminuindo até que todo o trabalho planejado para o sprint seja concluído. Dessa forma, o burndown é uma ferramenta
-                                importante para ajudar a equipe a identificar e solucionar possíveis problemas e manter o foco no objetivo do
-                                sprint.
-                            </p>
-                        </li>
-                    </ol>
-                        <p class="pnartefatos">Esses artefatos são criados em conjunto pela equipe de desenvolvimento e o Product Owner, e são usados para garantir a
-                            transparência do projeto e facilitar a comunicação entre todas as partes interessadas.
-                        </p>
-                </div>
-                <div>
-                    <button class="np">
-                        <a href="/time_scrum">Anterior</a>
-                    </button>
-                    <button class="np">
-                        <a href="/probacklog">Próximo</a>
-                    </button>
-                </div>
-        </div>
-            
+<div class="flex-container">
+    <p class="texto1">
+        Artefatos Scrum são os produtos e documentos que são criados durante a execução do framework Scrum. São
+        utilizados para
+        garantir que todos os envolvidos no projeto tenham uma compreensão clara do progresso e dos objetivos do
+        projeto.
+        Existem três artefatos principais do Scrum:
+    </p>
+    <p class="texto1"><a href="/probacklog" button type="button" class="btn btn-danger"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            ► Veja o vídeo
+        </a>Product Backlog: em termos gerais, é uma lista de tarefas, funcionalidades ou requisitos que precisam ser
+        realizados em um projeto ou produto. Na gestão ágil de projetos, o backlog é uma ferramenta fundamental que
+        permite ao time de desenvolvimento priorizar e gerenciar as atividades em um projeto de forma mais eficiente e
+        flexível.
+        O backlog pode ser dividido em duas categorias: o Product Backlog e o Sprint Backlog. O Product Backlog é a
+        lista completa de tarefas, funcionalidades ou requisitos que precisam ser realizados para entregar o produto
+        final. Já o Sprint Backlog é uma lista de itens do Product Backlog que foram selecionados para serem
+        implementados durante um Sprint específico.
+        O Product Backlog é organizado de acordo com a prioridade de cada item, geralmente definida pelo Product Owner.
+        A equipe de desenvolvimento deve sempre trabalhar no topo do backlog, que contém as tarefas mais prioritárias,
+        para garantir que os itens de maior valor sejam entregues primeiro. O backlog é dinâmico e pode ser atualizado a
+        qualquer momento pelo Product Owner, que pode adicionar, remover ou alterar itens de acordo com as necessidades
+        do projeto.
+        O Sprint Backlog é uma lista mais detalhada e específica de itens selecionados do Product Backlog que serão
+        trabalhados durante um Sprint específico. A equipe de desenvolvimento deve trabalhar no Sprint Backlog durante
+        todo o Sprint para garantir que os itens selecionados sejam concluídos dentro do prazo.
+    </p>
+
+
+    <p class="texto1"><a href="/sprintbacklog" button type="button" class="btn btn-danger"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            ► Veja o vídeo
+        </a>Sprint Backlog: em termos gerais, é uma lista de tarefas, funcionalidades ou requisitos que precisam ser
+        realizados em um projeto ou produto. Na gestão ágil de projetos, o backlog é uma ferramenta fundamental que
+        permite ao time de desenvolvimento priorizar e gerenciar as atividades em um projeto de forma mais eficiente e
+        flexível.
+        O backlog pode ser dividido em duas categorias: o Product Backlog e o Sprint Backlog. O Product Backlog é a
+        lista completa de tarefas, funcionalidades ou requisitos que precisam ser realizados para entregar o produto
+        final. Já o Sprint Backlog é uma lista de itens do Product Backlog que foram selecionados para serem
+        implementados durante um Sprint específico.
+        O Product Backlog é organizado de acordo com a prioridade de cada item, geralmente definida pelo Product Owner.
+        A equipe de desenvolvimento deve sempre trabalhar no topo do backlog, que contém as tarefas mais prioritárias,
+        para garantir que os itens de maior valor sejam entregues primeiro. O backlog é dinâmico e pode ser atualizado a
+        qualquer momento pelo Product Owner, que pode adicionar, remover ou alterar itens de acordo com as necessidades
+        do projeto.
+        O Sprint Backlog é uma lista mais detalhada e específica de itens selecionados do Product Backlog que serão
+        trabalhados durante um Sprint específico. A equipe de desenvolvimento deve trabalhar no Sprint Backlog durante
+        todo o Sprint para garantir que os itens selecionados sejam concluídos dentro do prazo.
+    </p>
+
+
+    <p class="texto1"><a href="/burndown" button type="button" class="btn btn-danger"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+            ► Veja o vídeo
+        </a>Burndown: em termos gerais, é uma lista de tarefas, funcionalidades ou requisitos que precisam ser
+        realizados em um projeto ou produto. Na gestão ágil de projetos, o backlog é uma ferramenta fundamental que
+        permite ao time de desenvolvimento priorizar e gerenciar as atividades em um projeto de forma mais eficiente e
+        flexível.
+        O backlog pode ser dividido em duas categorias: o Product Backlog e o Sprint Backlog. O Product Backlog é a
+        lista completa de tarefas, funcionalidades ou requisitos que precisam ser realizados para entregar o produto
+        final. Já o Sprint Backlog é uma lista de itens do Product Backlog que foram selecionados para serem
+        implementados durante um Sprint específico.
+        O Product Backlog é organizado de acordo com a prioridade de cada item, geralmente definida pelo Product Owner.
+        A equipe de desenvolvimento deve sempre trabalhar no topo do backlog, que contém as tarefas mais prioritárias,
+        para garantir que os itens de maior valor sejam entregues primeiro. O backlog é dinâmico e pode ser atualizado a
+        qualquer momento pelo Product Owner, que pode adicionar, remover ou alterar itens de acordo com as necessidades
+        do projeto.
+        O Sprint Backlog é uma lista mais detalhada e específica de itens selecionados do Product Backlog que serão
+        trabalhados durante um Sprint específico. A equipe de desenvolvimento deve trabalhar no Sprint Backlog durante
+        todo o Sprint para garantir que os itens selecionados sejam concluídos dentro do prazo.
+    </p>
+    
+    <p class="texto1"><a href="/incrementovideo" button type="button" class="btn btn-danger"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+        ► Veja o vídeo
+    </a>
+        O incremento funcional é um conceito fundamental da metodologia Scrum, que se refere ao resultado concreto e
+        tangível de cada iteração do processo de desenvolvimento. Em outras palavras, é o produto parcial e funcional
+        que é entregue ao final de cada ciclo de trabalho, conhecido como sprint.<br>
+        
+        O incremento funcional é uma versão do produto que contém novas funcionalidades, correções de bugs e melhorias
+        incrementais que são adicionadas a cada sprint. Esses incrementos são testados e validados pelo time de
+        desenvolvimento e pelos stakeholders para garantir que as expectativas do cliente estejam sendo atendidas.<br>
+
+        Com cada sprint concluído, o produto deve ser cada vez mais funcional, com novos recursos e melhorias
+        incrementais adicionados a cada iteração. O objetivo é alcançar um produto final de alta qualidade e que atenda
+        às necessidades do cliente, em vez de esperar até o final do projeto para entregar o produto completo. O
+        incremento funcional permite que o cliente possa visualizar o produto e fornecer feedback contínuo, o que ajuda
+        a orientar o desenvolvimento do produto.
+    </p>
+        <p class="texto1">Esses artefatos são criados em conjunto pela equipe de desenvolvimento e o Product Owner, e são
+            usados para garantir a
+            transparência do projeto e facilitar a comunicação entre todas as partes interessadas.
+        </p>
+    
+    <div class="text-center">
+        <a href="/time_scrum" class="btn btn-secondary btn-lg">Anterior</a>
+        <a href="/quest-eventos" class="btn btn-secondary btn-lg">Avaliação</a>
     </div>
+</div>
 {%endblock%}

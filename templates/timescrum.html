@@ -1,51 +1,84 @@
 {%extends "base.html"%}
-{%block title%}Time Scrum{%endblock%}
+{%block title2%}{%block title%}Time Scrum{%endblock%}{%endblock%}
 {%block content%}
 
 <div>
     <h1 class="t1">Time Scrum</h1>
 </div>
-<div class="texto1">
+<div>
     <div class="flex-container">
-        <p>
-            O Time Scrum é composto por três papéis principais: o Product Owner, o Scrum Master e a equipe de desenvolvimento.
-        </p>
-        <div class="ytvideo3">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dJiGm7EqMeE?start=132" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-        </div>
         <div>
-            <p>O Product Owner é responsável por representar os interesses do cliente e do usuário final, definindo e priorizando o
-            backlog do produto e as metas do projeto. Ele é o responsável por tomar as decisões sobre o que deve ser feito em cada
-            sprint.
-            </p>
+            <p class="texto1">
+                O Time Scrum é composto por três papéis, Product Owner, Scrum Master e o Time de Desenvolvimento.
+                O Time Scrum não trabalha com uma liderança e cobrança ativa como nos métodos mais conhecidos de trabalho, o time é
+                auto-gerenciável e todos sabem das suas responsabilidades, prazos e tarefas.</p>
+            <p class="texto1">
+                É um time multidisciplinar que detém todos
+                os conhecimentos necessários para o projeto, O fato de um Time de Desenvolvimento ser multidisciplinar, no entanto, não
+                necessariamente implica em possuir membros multidisciplinares. As pessoas naturalmente possuem suas especialidades,
+                conhecimentos e áreas de interesse específicos. Mas, como com Scrum a responsabilidade sobre os resultados do trabalho
+                recai sobre todo o Time de Desenvolvimento e não sobre determinado indivíduo, os membros do Time de Desenvolvimento são
+                estimulados a trabalhar juntos, trocar conhecimentos e desenvolver habilidades secundárias.</p>
+                <p class="texto1">
+                    Esta troca de conhecimentos
+                constante faz com que elimine a possibilidade de algum membro do time ficar sem o que fazer durante alguma etapa do
+                projeto, podendo ajudar em outras tarefas. Ainda que seja idealmente esperado que cada membro do time possua todas as
+                habilidades necessárias para o projeto, sabemos que na realidade isso acaba não acontecendo, daí a grande importância do
+                aprendizado dentro do Time Scrum.
+                O Time Scrum é também auto-organizado, trabalhando com microgerenciamento o time informa a todos na daily-scrum onde o
+                time de desenvolvimento faz a inspeção do andamento do projeto de maneira diária, assim caso haja algum impedimento o
+                desenvolvedor pode contar com o auxílio do Scrum Master que é o integrante que basicamente tem a função de balizar a
+                equipe dentro do método Scrum, sendo ele o maior conhecedor do método dentro do time.</p>
+                <p class="texto1"><a href="/video_product_owner" button type="button" class="btn btn-danger"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    ► Veja o vídeo
+                </a>
+                    Product Owner é um papel único num Time Scrum, é o responsável por garantir o trabalho do time de desenvolvimento e o
+                retorno sobre o investimento no produto para o cliente do projeto. É ele quem define o produto seguindo os requisitos
+                baseados nas necessidades do cliente.
+                O Product Owner é quem gerencia o produto de maneira detalhada e por prioridades no Backlog do Produto, isso através de
+                um contato estreito com o cliente. É ele quem mantém e traz a visão do produto para o time, participa do estabelecimento
+                de metas, planejamento das sprints, revisão das sprints, aceita ou rejeita as entregas feitas pelo time de
+                desenvolvimento, participa da aprimoração e refino do produto junto ao time de desenvolvimento. Também é atribuído ao PO
+                a facilitação com o time de desenvolvimento sanando dúvidas a respeito dos requisitos e expectativas por parte do
+                cliente e dos demais envolvidos com o produto.</p>
+                <p class="texto1"><p class="texto1"><a href="/video_scrum_master" button type="button" class="btn btn-danger"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    ► Veja o vídeo
+                </a>
+                    Scrum Master é o integrante da equipe que trabalha para facilitar e maximizar o trabalho do Time Scrum, ele detém o
+                maior conhecimento do método Scrum e enorme habilidade para aplicá-lo no projeto, deve também ter uma grande habilidade
+                em lidar com pessoas, resolver conflitos e ser motivacional assim balizando o time dentro dos parâmetros necessários
+                removendo impedimentos através da comunicação diária com o time de desenvolvimento, também promove qualquer mudança
+                organizacional necessária para o melhor andamento do projeto e assim criando um ambiente propício para que o time de
+                desenvolvimento realize suas atividades de maneira eficaz. O Scrum Master enquanto facilitador deve ser neutro
+                aumentando a capacidade e a responsabilidade do grupo em resolver seus problemas, mas sem interferir diretamente no
+                conteúdo das discussões do grupo, ou seja, trabalhando na orientação. É papel do Scrum Master fazer com que o método
+                seja compreendido e assim corretamente aplicado e seguido por todo o time.</p>
+                <p class="texto1"><p class="texto1"><a href="/video_time_scrum" button type="button" class="btn btn-danger"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    ► Veja o vídeo
+                </a>
+                    Time de Desenvolvimento são os demais integrantes do time que são diretamente responsáveis pelo desenvolvimento e
+                criação do produto em questão, são auto-gerenciados e devem ter como grande trunfo a comunicação junto a transparência,
+                pois é o que fará com que as daily-scrum sejam produtivas, facilitando o trabalho do PO e do SM, consequentemente de
+                todo o Time Scrum. O time de desenvolvimento idealmente deve ser composto de 3 a 9 integrantes desconsiderando o PO e o
+                SM a não ser que estes exerçam também o papel de time de desenvolvimento.
+                Apesar de diferentes papéis no projeto, as pessoas são igualmente responsáveis pelos resultados obtidos ou não pelo
+                time, trabalham de forma colaborativa e todos se comprometem com o projeto. O time de desenvolvimento também é quem
+                colabora na reunião de Sprint Planning juntamente com o Product Owner, tomando as decisões do que será realizado durante
+                a Sprint baseado nas prioridades definidas pelo PO, o time vai estimar o tempo necessário para a realização de cada
+                tarefa que consta no Backlog do Produto. Sempre que necessário o time de desenvolvimento tem a liberdade de procurar o
+                PO para interagir a respeito do andamento do projeto, tirando dúvidas e recebendo feedbacks assim reduzindo o riscos.
+                É do time de desenvolvimento, também a responsabilidade de identificar e comunicar os impedimentos que são obstáculos
+                que impedem a progressão de uma tarefa, travando assim o andamento da Sprint. A comunicação através dos quadros do
+                Burndown com cores diferenciadas ou comentários nas atividades não substitui a comunicação verbal com o Scrum Master,
+                pois a comunicação e transparência são fundamentais no Time Scrum.
+                </p>
         </div>
-        <div>
-            <p>
-                O Scrum Master é o guardião do processo Scrum, responsável por garantir que a equipe siga as práticas e valores do
-                Scrum, além de remover os impedimentos que possam atrapalhar o desenvolvimento do projeto. Ele também facilita as
-                cerimônias do Scrum e promove a melhoria contínua do time.
-            </p>
-        </div>
-        <div>
-            <p>
-                A equipe de desenvolvimento é formada por profissionais multifuncionais que trabalham juntos para entregar as
-                funcionalidades do produto. Eles são autogerenciáveis e responsáveis por decidir como irão realizar as tarefas do
-                backlog do sprint. A equipe de desenvolvimento é composta por desenvolvedores, designers, testers, entre outros
-                profissionais, dependendo da natureza do projeto.<br>
-                Esses três papéis trabalham em conjunto e se apoiam mutuamente para garantir o sucesso do projeto e a entrega de valor
-                ao cliente.
-            </p>
-        </div>
-        <div>
-            <button class="np">
-                <a href="/">Anterior</a>
-            </button>
-            <button class="np">
-                <a href="/artefatos_scrum">Próximo</a>
-            </button>
+        <div class="text-center">
+            <a href="/scrum" class="btn btn-secondary btn-lg">Anterior</a>
+            <a href="/artefatos_scrum" class="btn btn-secondary btn-lg">Próximo</a>
         </div>
     </div>
 </div>

@@ -1,0 +1,185 @@
+{%extends "base.html"%}
+{%block title%}Quest Final{%endblock%}
+{%block content%}
+<div class="flex-container">
+    <div class="t1">
+        <h1>Questionário sobre Eventos Scrum</h1>
+    </div>
+    <div class="quiz">
+        <form>
+            <div>
+                <h3>1- Quais são os principais papéis dentro de uma equipe Scrum? </h3>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q1" value="a">
+                    a- Scrum Master, desenvolvedores e stakeholders.
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q1" value="b">
+                    b- Gerente de projeto, desenvolvedores e testadores.
+                </label>
+            </div>
+            <div>
+                <label>
+                <input type="radio" name="q1" value="c">
+                c- Product Owner, Scrum Master e desenvolvedores.
+                </label>
+            </div>
+            <div>
+                <label>
+                <input type="radio" name="q1" value="d">
+                d- Analistas de negócio, designers e desenvolvedores.
+                </label>
+            </div>
+            <div>
+
+                <h3>2- Qual é o objetivo do Daily Scrum? </h3>
+            </div>
+            <div>
+                <label>
+                <input type="radio" name="q2" value="a">
+                    a- Revisar o progresso do projeto.
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q2" value="b">
+                    b- Identificar e discutir os problemas que surgiram durante o sprint.
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q2" value="c">
+                    c- Definir as metas do sprint.
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q2" value="d">
+                    d- Discutir os próximos passos para concluir as tarefas.
+                </label>
+            </div>
+            <div>
+                <h3>3- O que é um backlog refinado? </h3>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q3" value="a">
+                    a- Uma lista de tarefas que foram concluídas durante o sprint.
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q3" value="b">
+                    b- Uma lista de funcionalidades do produto que precisam ser desenvolvidas.
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q3" value="c">
+                    c- Uma lista de problemas que surgiram durante o sprint.
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q3" value="d">
+                    d- Uma lista de tarefas que ainda precisam ser definidas.
+                </label>
+            </div>
+            <div>
+                <h3>4- Quais são as principais atividades realizadas durante o sprint retrospective?</h3>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q4" value="a">
+                    a- Revisar as tarefas concluídas durante o sprint.
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q4" value="b">
+                    b- Identificar e discutir os problemas que surgiram durante o sprint.
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q4" value="c">
+                    c- Definir as metas do sprint.
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q4" value="d">
+                    d- Apresentar o produto incrementado ao cliente e obter feedback.
+                </label>
+            </div>
+            <div>
+                <h3>5- Qual é a diferença entre o product backlog e o sprint backlog? </h3>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q5" value="a">
+                    a- O product backlog é uma lista de todas as funcionalidades do produto, enquanto o sprint backlog é uma
+                    lista de tarefas para o sprint atual.
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q5" value="b">
+                    b- O product backlog é uma lista de tarefas para o sprint atual, enquanto o sprint backlog é uma lista
+                    de todas as funcionalidades do produto.
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q5" value="c">
+                    c- O product backlog é uma lista de tarefas concluídas durante o sprint, enquanto o sprint backlog é uma
+                    lista de todas as funcionalidades do produto.
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q5" value="d">
+                    d- O product backlog e o sprint backlog são a mesma coisa.
+                </label>
+            </div>
+            <div>
+                <h3>6- Qual é o objetivo do sprint goal? </h3>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q6" value="a">
+                    a- Definir as metas para o próximo sprint.
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q6" value="b">
+                    b- Identificar os problemas que surgiram durante o sprint.
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q6" value="c">
+                    c- Desenvolver um produto mínimo viável.
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q6" value="d">
+                    d- Estabelecer uma meta para o sprint que a equipe possa trabalhar para alcançar.
+                </label>
+            </div>
+            <br>
+            <input type="button" value="Enviar" onclick="verificar()">
+                </form>
+            </form>
+        </form>
+        <p id="resultado"></p>
+    </div>
+</div>
+    <script src="script2.js"></script>
+{%endblock%}

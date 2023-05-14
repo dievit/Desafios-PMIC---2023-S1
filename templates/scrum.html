@@ -1,47 +1,81 @@
 {%extends "base.html"%}
-{%block title%}scrum{%endblock%}
+{%block title2%}{%block title%}Método Scrum{%endblock%}{%endblock%}
 {%block content%}
 
-    <div>
-        <h1 class="t1">Vamos entender o que é o método Scrum?</h1>
-    </div>
-<div class="flex-container2">
-        <div class="ytvideo2">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/XfvQWnRgxG0" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
+<div>
+    <h1 class="t1">Você sabe o que é o Scrum?</h1><br><br><br>
+</div>
+<div class="flex-container">
+    <div class="flex-container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XfvQWnRgxG0" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
             </iframe>
-        </div>
-    <div class="texto01">
-        <p>O Scrum é uma metodologia ágil de gerenciamento de projetos que tem como objetivo aumentar a eficiência e qualidade
-            da entrega do produto final. O método consiste em dividir o projeto em pequenos ciclos chamados de sprints, nos
-            quais uma equipe multifuncional trabalha em conjunto para entregar funcionalidades em curtos períodos de tempo.
-            O processo inclui reuniões diárias de acompanhamento, revisões e retrospectivas do sprint anterior, além de
-            planejamento do próximo sprint. O Scrum enfatiza a transparência, a inspeção e a adaptação, tornando possível uma
-            entrega contínua e incremental do produto final.
-        </p>
+              </div>
+              <div class="carousel-item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ggWCGy2k6zY" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </div>
+    <br>
+    <br>
+    
     <div>
-        <img class="img002" src="../static/imagens/image-28.png" alt="frameworkscrum">
+            <p class="texto1">Para um primeiro contato, essa nomenclatura pode parecer difícil e complicada, mas na verdade
+            é bem o oposto. Scrum nada mais é do que uma metodologia ágil de gestão de projetos com foco em otimizar
+            tempo, recursos e custos. Mas antes de aprendermos sobre ele vamos introduzir primeiro o conceito de
+            metodologia ágil.</p>
+
+            <p class="texto1">A metodologia ágil é uma abordagem interativa para o desenvolvimento de projetos que se concentra na
+            entrega de valor contínuo ao longo do processo para o cliente. Diferentemente do método cascata (waterfall),
+            que tem como foco o planejamento, desenvolvimento e entrega definidos apenas para o final do projeto direto
+            com o cliente, o que não abre espaço para mudanças no cronograma, o método ágil é mais flexível e se
+            concentra em entrega de valor contínuo ao longo do processo de desenvolvimento.</p>
+
+            <p class="texto1">O scrum é utilizado no desenvolvimento de projetos que exigem flexibilidade e adaptação continua. Ele é uma
+            ferramenta que pode trazer diversos benefícios em comparação a outras formas de se conduzir projetos, pois
+            permiti reduzir os riscos de falhas, entrega valor mais rápido e de forma eficiente, e lidar com as
+            inevitáveis mudanças de trajeto, transformando-as em vantagem competitiva. Seu uso pode também aumentar a
+            qualidade do produto entregue e melhorar a produtividade das equipes. Ele se baseia na ideia de dividir o
+            trabalho em ciclos curtos, chamadas de sprints, que duram em torno de uma a quatro semanas com o intuito de
+            desenvolver um incremento funcional do produto e apresentar ao cliente ao final de cada sprint para
+            aprovação, ou possíveis mudanças que venham a surgir. O Scrum utiliza uma série de eventos (que veremos mais a frente) para
+            garantir a transparência e a colaboração entre o time de desenvolvimento e o cliente.</p>
+
+            <p class="texto1">O Scrum ajuda a garantir que o produto final atenda às necessidades e expectativas do cliente, ao mesmo
+            tempo em que mantém o time de desenvolvimento focado e motivado pois tem como valores: Foco, Coragem,
+            Sinceridade, Comprometimento e Respeito tudo isso sobre os pilares da transparência (todo o projeto, tanto
+            no começo ao final, deve ser visível e acessível a todos do grupo); inspeção (o processo como um todo deve
+            ser revisado para detectar eventuais problemas e corrigi-los); e adaptação (que é a habilidade de se
+            ajustar ao cenário atual do projeto e fazer o melhor possível para que saia de acordo com o cronograma já
+            citado). O time scrum se divide em papeis que serão apresentados a seguir.</p>
     </div>
-    <div class="texto01">
-        <p>
-            Com o Scrum, é possível melhorar a colaboração entre os membros da equipe, aumentar a produtividade e a satisfação
-            do cliente, além de reduzir riscos e custos. É uma metodologia altamente flexível, que pode ser aplicada em diversos
-            tipos de projetos.
-        </p>
+
+    <div class="text-center">
+        <a href="/" class="btn btn-secondary btn-lg">Anterior</a>
+        <a href="/time_scrum" class="btn btn-secondary btn-lg">Próximo</a>
     </div>
-    <div>
-        <img class="img001" src="../static/imagens/Responsabilidades-do-Scrum-v3.png" alt="responsabilidades-do-scrum">
-    </div>
-    <div>
-        <button class="np">
-            <a href="/">Anterior</a>
-        </button>
-        <button class="np">
-            <a href="/time_scrum">Próximo</a>
-        </button>
-    </div>
+        
 </div>
 {%endblock%}

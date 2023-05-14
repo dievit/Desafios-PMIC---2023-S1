@@ -1,20 +1,30 @@
 header{
     position: fixed;
     width: 100%;
-    height: 95px;
+    height: 5vh;
     left: 0px;
     top: 0px;
-    background: #005FA4;
-    z-index: 8;
+    background: rgba(172, 160, 129, 1);
+    z-index: 7;
+    
 }
 
 .logotipo{
     position: fixed;
-    width: 80px;
-    height: 80px;
+    width: 54px;
+    height: 8   0px;
     top: 1vh;
-    right:5vh;
-    z-index: 9;
+    right:3vh;
+    z-index: 8;
+}
+
+.barra{
+position: absolute;
+margin-top: -1vh;
+padding-bottom: 0;
+font-size: 22px;
+
+
 }
 
 footer{
@@ -25,9 +35,10 @@ footer{
     width: 100%;
     left: 0px;
     bottom: 0px;
-    background: #005FA4;;
+    background: rgba(172, 160, 129, 1);
     align-items: center;
     height: 30px;
+    z-index: 9;
 }    
 
 
@@ -38,21 +49,29 @@ body{
     background-attachment: fixed;
     overflow-y: auto;
     overflow-x: hidden;
+    margin-bottom: 10vh;
 }
 
 
 .ul1{
+    margin-top: 7vh;
     list-style: none;
-    padding: 0px 0px 0px 0px;
+    padding: 0px;
     overflow: hidden;
     transition: all .5s;
     height: 0px;
-    size: 10px;
+    size: 8px;
+    padding-top: 2vh;
+}
+
+.ul2{
+    list-style: none;
+    text-align: left;
 }
 
 
 .nav1{
-    background-color: rgba(0, 95, 164, 1);
+    background-color: rgba(172, 160, 129, 1);
     padding: 0 10px;
     justify-content: space-between;
     align-items: left;
@@ -61,7 +80,7 @@ body{
 }
 
 h1, p , a {
-    color: white;
+    color: black;
 }
 
 .nav1, .ul1{
@@ -70,41 +89,51 @@ h1, p , a {
     
 }
 
-.lista1{
-    padding: 10px 10px;
-    font-size: 22px;
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.lista1{
+    padding: 10px;
+    font-size: 20px;
+        
 }
 
 h1{
     margin: 10px;
     margin-top: 20px;
     padding: 0px;
+    margin-left: 5vh;
     font-size: 32px;
     top: 20px;
     border: none;
+    font-family: 'Segoe UI';
+
+
 }
 
-button{ 
+/* button{ 
     background-color: transparent;
     border: none;
-    color: white;
-    font-size: 28px;
+    color: black;
+    font-size: 18px;
     position: absolute; 
     left: 35vh;
-    top: 20px;
-}
+    top: 3vh;
+} */
 
 .lista1:hover, button:hover{
     cursor: pointer;
-    opacity: 0.8;
-    background-color: rgba(0, 75, 130, 1);
+    opacity: 0.6;
+    background-color: rgb(85, 78, 60)
 }
 
-button:focus ~ .ul1{
-    height: 190px;  
+/* button:focus ~ .ul1{
+    height: 61vh;  
 }
-
+ */
 @media (max-width: 200px){
     .nav1, .ul1{
         flex-direction: column;
@@ -144,47 +173,52 @@ a:hover{
 }
 
 .p1{
+    font-family: 'Segoe UI';
     margin-top: 4vh;
     margin-left: 20vh;
     text-align: justify;
     width: 52%;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 22px;
     text-indent: 4vh;
     padding-top: 0vh;
-    padding-bottom: 2vh;
+    padding-bottom: 0vh;
+    line-height: 40px;
 }
 
 .t1{
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 22vh;
-    margin-left: 4vh;
-
+    margin-left: 6vh;
+    font-family: 'Segoe UI';
 }
 
 
 .subtitulo{
     font-size: 26px;
     text-align: justify;
-    color: white;
+    color: black;
+    font-family: 'Segoe UI';
 }
 
 
 .subtitulo2{
     font-size: 26px;
-    color: white;
-    
+    color: black;
+    font-family: 'Segoe UI';
 }
 
 .subh2{
     font-size: 22px;
-    color: white;
+    color: black;
+    font-family: 'Segoe UI';
 }
 
 .p2{
+    font-family: 'Segoe UI';
     margin-top: 8vh;
     margin-left: 8vh;
-    text-align: left;
+    text-align: justify;
     width: 80%;
     text-decoration: none;
     font-size: 20px;
@@ -194,28 +228,36 @@ a:hover{
 
 /* TEXTOS DO TIME SCRUM*/
 .texto01, .texto1, .texto2, .texto3, .texto4{
-    font-size: 28px;
-    text-indent: 4vh;
-    width: 80%;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    width: 100%;
     text-align: justify;
-    color: white;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    color: black;
+    line-height: 35px;
+    padding: 10%;
+    padding-top: 0;
+    padding-bottom: 1%;
 }
 
+.texto7{
+    margin-top: 30vh;
+}
 .texto3{
     padding-bottom: 20vh;
+    font-family: 'Segoe UI';
 }
 
 .flex-container2{
+    font-family: 'Segoe UI';
     display: block;
     width: 100%;
     margin-right: 25vh;
+    
 }
 
 
 .p5{
+    font-family: 'Segoe UI';
     font-size: 20px;
     text-indent: 4vh;
     width: 80%;
@@ -225,6 +267,7 @@ a:hover{
 
 .p4{
     font-size: 20px;
+    font-family: 'Segoe UI';
     text-indent: 4vh;
     width: 70%;
     text-align: justify;
@@ -251,16 +294,10 @@ a:hover{
     top: 40vh;
 }
 
-.flex-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
   
 .título{
     font-size: 50px;
+    font-family: 'Segoe UI';
     margin-top: 22vh;
     margin-left: 4vh;
 }
@@ -268,7 +305,8 @@ a:hover{
 
 .linkart{
     text-decoration: underline;
-    color: darkgreen;
+    font-family: 'Segoe UI';
+    color: rgba(172, 160, 129, 1);
 }
 .pnartefatos{
     margin-bottom: 10vh;
@@ -285,7 +323,7 @@ a:hover{
     max-width: 100%;
     max-height: 100%;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    margin-top: 8%;
 }
 
 .ytvideo3{
@@ -293,8 +331,9 @@ a:hover{
     max-height: 100%;
 }
 
-.img001{
+.img001, .img002{
     margin-bottom: 10vh;
+    width: 700px;
 }
   .img1,.img2,.backlog,.sprintbacklog,.burndownchart{
     max-width: 100%;
@@ -306,14 +345,16 @@ a:hover{
     width: 800px;
   }
 
-.flex-container2{
+.flex-container{
     display: flex;
+    font-family: 'Segoe UI';
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
+    
 }
+
 
 .backlog, .sprintbacklog, .burndownchart{
     height: 360px;
@@ -322,7 +363,7 @@ a:hover{
 
 .np {
     background-color: #ff6a00;
-    color: #fff;
+    color: black;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -332,10 +373,12 @@ a:hover{
     margin-bottom: 10vh;
     text-align: center;
     position: static;
+    font-family: 'Segoe UI';
 }
 
 .npinit{
     background-color: #ff6a00;
+    font-family: 'Segoe UI';
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -346,20 +389,97 @@ a:hover{
     margin-bottom: 15vh;
     text-align: center;
     position: relative;
-    margin-left: 70vh;
+    margin-left: 12%;
+    background-color: none;
  }
 
 
 .np:hover {
-    background-color: #0062cc;
+    background-color: rgba(172, 160, 129, 1);
 }
   
 .np:active {
-    background-color: #005cbf;
+    background-color: rgba(172, 160, 129, 1);
 }
   
 .np>a {
     color: #fff;
     text-decoration: none;
+    font-family: 'Segoe UI';
 }
+
+.quest{
+    text-align: left;
+    font-family: 'Segoe UI';
+}
+
+
+
+.flex-container3{
+    display: flex;
+    font-family: 'Segoe UI';
+    flex-wrap: wrap;
+    align-items: left;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: 5vh;
+    width: 90%;
+}
+
+.enviar{
+    font-family: 'Segoe UI';
+
+    font-size: 26px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 4vh;
+    text-align: center;
+    position: static;
+ }
+
+ .listaeventos{
+    text-align: left;
+    width: 80%;
+ }
+
+ .aviso {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #f8d7da;
+	color: #721c24;
+	padding: 10px;
+	box-sizing: border-box;
+	display: none;
+}
+
+.fechar {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	cursor: pointer;
+}
+
   
+  
+  .botao {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  .quiz{
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    width: 100%;
+    text-align: justify;
+    color: black;
+    line-height: 40px;
+    padding: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
