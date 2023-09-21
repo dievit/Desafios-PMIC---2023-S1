@@ -1,0 +1,9 @@
+[submodule "Desafio-1"]
+	path = Desafio-1
+	url = https://github.com/dievit/Desafio-1
+[submodule "Desafio-2"]
+	path = Desafio-2
+	url = https://github.com/dievit/Desafio-2
+[submodule "Desafio-3"]
+	path = Desafio-3
+	url = https://github.com/dievit/Desafio-3
